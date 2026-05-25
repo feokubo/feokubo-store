@@ -53,6 +53,25 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide_2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_25_de_mai._de_2026_16_48_25.png",
+            "image_mobile": "shopify://shop_images/agora-uma-vers-o-mobile-porfavor.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_1": {
           "type": "slide",
           "settings": {
@@ -71,30 +90,11 @@
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
-        },
-        "slide_2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/banner-de-capacete-de-snowboard-para-uma-loja-de-esporte-em-um-fundo-montanhoso-de-gelo.png",
-            "image_mobile": "shopify://shop_images/agora-uma-vers-o-mobile-porfavor.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
         }
       },
       "block_order": [
-        "slide_1",
-        "slide_2"
+        "slide_2",
+        "slide_1"
       ],
       "settings": {
         "layout": "full_bleed",
