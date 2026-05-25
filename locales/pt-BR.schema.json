@@ -1165,6 +1165,18 @@
     "image-with-text": {
       "name": "Imagem com texto",
       "settings": {
+        "header_media": {
+          "content": "Mídia"
+        },
+        "media_type": {
+          "label": "Tipo de mídia",
+          "options__1": {
+            "label": "Imagem"
+          },
+          "options__2": {
+            "label": "Vídeo"
+          }
+        },
         "image": {
           "label": "Imagem"
         },

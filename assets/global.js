@@ -725,6 +725,31 @@ class DeferredMedia extends HTMLElement {
 
 customElements.define('deferred-media', DeferredMedia);
 
+class LazyAutoplayVideo extends HTMLElement {
+  constructor() {
+    super();
+    const video = this.querySelector('video');
+    if (!video) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        });
+      },
+      { rootMargin: '200px' }
+    );
+
+    observer.observe(this);
+  }
+}
+
+customElements.define('lazy-autoplay-video', LazyAutoplayVideo);
+
 class SliderComponent extends HTMLElement {
   constructor() {
     super();

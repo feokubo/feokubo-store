@@ -1326,6 +1326,18 @@
       "header_colors": {
       "content": "Colors" 
       },
+      "header_media": {
+        "content": "Media"
+      },
+      "media_type": {
+        "label": "Media type",
+        "options__1": {
+          "label": "Image"
+        },
+        "options__2": {
+          "label": "Video"
+        }
+      },
         "image": {
           "label": "Image"
         },
