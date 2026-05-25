@@ -3081,6 +3081,10 @@
             "image": {
               "label": "Image"
             },
+            "image_mobile": {
+              "label": "Mobile image",
+              "info": "Optional. Displayed on screens under 750px wide. Uses the desktop image when empty."
+            },
             "heading": {
               "label": "Heading",
               "default": "Image slide"
