@@ -72,6 +72,24 @@
             "color_scheme": "scheme-3"
           }
         },
+        "slide_JqBYzG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/theme_cover_image.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Winter Escape Collection",
+            "heading_size": "h1",
+            "subheading": "Designed for comfort, movement, and protection during the coldest days.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
         "slide_1": {
           "type": "slide",
           "settings": {
@@ -94,6 +112,7 @@
       },
       "block_order": [
         "slide_2",
+        "slide_JqBYzG",
         "slide_1"
       ],
       "settings": {
