@@ -1,106 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_with_text": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "heading_R97fHN": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Winter Escape Collection",
+            "heading_size": "h1"
           }
         },
-        "button": {
-          "type": "buttons",
+        "text_wParyz": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p><br/>Functional design and minimalist style made for every snowy adventure. Discover the latest pieces made to keep you warm with comfort and style.<br/>Designed for comfort, movement, and protection during the coldest days.<br/><br/></p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_R97fHN",
+        "text_wParyz"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "media_type": "video",
+        "image": "shopify://shop_images/theme_cover_image.jpg",
+        "video": "shopify://files/videos/7166069-uhd_3840_2160_24fps.mp4",
+        "enable_video_looping": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text": {
-      "type": "image-with-text",
-      "settings": {}
     },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide_1": {
+        "slide_2": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify://shop_images/ChatGPT_Image_25_de_mai._de_2026_16_48_25.png",
+            "image_mobile": "shopify://shop_images/agora-uma-vers-o-mobile-porfavor.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "show_text_box": false,
             "box_align": "middle-center",
-            "show_text_box": true,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
         },
-        "slide_2": {
+        "slide_1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify://shop_images/theme_cover_image.jpg",
+            "image_mobile": "shopify://shop_images/snowboard-image-for-mobile.png",
+            "image_overlay_opacity": 0,
+            "heading": "Ride Beyond the Peak",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Engineered for riders who chase fresh powder and unforgettable mountain experiences.",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
+            "show_text_box": false,
             "box_align": "middle-center",
-            "show_text_box": true,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
@@ -108,8 +93,8 @@
         }
       },
       "block_order": [
-        "slide_1",
-        "slide_2"
+        "slide_2",
+        "slide_1"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -124,9 +109,7 @@
     }
   },
   "order": [
-    "image_banner",
     "image_with_text",
-    "slideshow",
-    "featured_collection"
+    "slideshow"
   ]
 }
