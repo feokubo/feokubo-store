@@ -59,36 +59,36 @@
             "image": "shopify://shop_images/ChatGPT_Image_25_de_mai._de_2026_16_48_25.png",
             "image_mobile": "shopify://shop_images/agora-uma-vers-o-mobile-porfavor.png",
             "image_overlay_opacity": 0,
-            "heading": "",
+            "heading": "RIDE THE PEAK",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "Premium Snowboards & Winter Gear for Every Adventure",
+            "button_label": "see more",
             "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
+            "button_style_secondary": true,
+            "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         },
         "slide_1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/theme_cover_image.jpg",
+            "image": "shopify://shop_images/b3530b5d-e3e1-430c-83f2-191e4c103ad7.jpg",
             "image_mobile": "shopify://shop_images/snowboard-image-for-mobile.png",
             "image_overlay_opacity": 0,
-            "heading": "Ride Beyond the Peak",
+            "heading": "RIDE BEYONG THE PEAK",
             "heading_size": "h1",
             "subheading": "Engineered for riders who chase fresh powder and unforgettable mountain experiences.",
-            "button_label": "",
+            "button_label": "see more",
             "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
+            "button_style_secondary": true,
+            "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         }
       },
@@ -99,10 +99,10 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
